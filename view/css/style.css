@@ -1,0 +1,58 @@
+#main-editor {
+	min-height: 300px;
+}
+
+.element  section {
+    max-width: 100px;
+}
+
+.element {
+	position: relative;
+	z-index: 1001;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	padding: 5px;
+	width: 100%
+}
+
+
+#main-editor > section {
+    max-width: 100%;
+}
+
+/*** Bootstrap Dashboard ***/
+html {
+	overflow: scroll;
+}
+body {
+    padding-top: 50px;
+    cursor: auto;	
+}
+
+.modal {
+  overflow-y: hidden;
+}
+
+.main {
+    padding: 20px;
+}
+.main .page-header {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+
+
+/*** Bootstrap Overrides ***/
+
+/* ensures accessability compliance */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+	color: #767676;
+}
+
+a {
+	color: #317ab9;
+}
+
+
+
